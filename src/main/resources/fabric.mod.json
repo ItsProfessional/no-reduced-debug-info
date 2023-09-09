@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "no-reduced-debug-info",
+  "version": "${version}",
+  "name": "No Reduced Debug Info",
+  "description": "Forces the reducedDebugInfo gamerule to be false",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/no-reduced-debug-info"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/no-reduced-debug-info/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "no-reduced-debug-info.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
